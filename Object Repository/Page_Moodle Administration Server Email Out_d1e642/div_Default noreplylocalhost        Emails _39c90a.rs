@@ -6,12 +6,12 @@
    <elementGuidId>af22e887-86d7-44ad-9339-4ec655d4962f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#admin-noreplyaddress > div.form-setting.col-sm-9</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='admin-noreplyaddress']/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#admin-noreplyaddress > div.form-setting.col-sm-9</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

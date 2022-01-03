@@ -6,12 +6,12 @@
    <elementGuidId>1ce94428-73dd-4270-ad0f-d6d7670da074</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#id_s__noreplyaddress</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@id='id_s__noreplyaddress']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#id_s__noreplyaddress</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -42,7 +42,7 @@
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>moodle.testing.team@gmail.com</value>
+      <value>v.hbaoduy@gmail.com</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -84,7 +84,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='admin-noreplyaddress']/div[2]/div/input</value>
+      <value>//div[@id='yui_3_17_2_1_1641186597301_75']/div/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +92,13 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[10]/div[2]/div/input</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='admin-noreplyaddress']/div[2]/div/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

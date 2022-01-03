@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Admin create user (without special character)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fc4582a0-f997-4f9d-9c16-9fdf7d05fab3</testCaseGuid>
+</TestCaseEntity>

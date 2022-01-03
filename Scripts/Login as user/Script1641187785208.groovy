@@ -23,9 +23,9 @@ WebUI.navigateToUrl('http://localhost/')
 
 WebUI.click(findTestObject('Object Repository/Page_My Moodle/a_Log in'))
 
-WebUI.setText(findTestObject('Object Repository/Page_My Moodle Log in to the site/input_Username_username'), 'admin')
+WebUI.setText(findTestObject('Object Repository/Page_My Moodle Log in to the site/input_Username_username'), 'trongle')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_My Moodle Log in to the site/input_Password_password'), '7Dxoto1EjKfQbGop/Ov+1g==')
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_My Moodle Log in to the site/input_Password_password'), 'Ta6u/19GniC0jLl2J4N0KA==')
 
 WebUI.click(findTestObject('Object Repository/Page_My Moodle Log in to the site/button_Log in'))
 

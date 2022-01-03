@@ -6,12 +6,12 @@
    <elementGuidId>d8923950-71f7-4846-9af4-627ebb3279a5</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//div[@id='yui_3_17_2_1_1641187815913_189']/i</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='nav-notification-popover-container']/div/i</value>
+         <key>CSS</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -49,14 +49,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;nav-notification-popover-container&quot;)/div[@class=&quot;popover-region-toggle nav-link icon-no-margin&quot;]/i[@class=&quot;icon fa fa-bell fa-fw&quot;]</value>
+      <value>id(&quot;yui_3_17_2_1_1641187815913_189&quot;)/i[@class=&quot;icon fa fa-bell fa-fw&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='nav-notification-popover-container']/div/i</value>
+      <value>//div[@id='yui_3_17_2_1_1641187815913_189']/i</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,5 +64,12 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/i</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='nav-notification-popover-container']/div/i</value>
    </webElementXpaths>
 </WebElementEntity>

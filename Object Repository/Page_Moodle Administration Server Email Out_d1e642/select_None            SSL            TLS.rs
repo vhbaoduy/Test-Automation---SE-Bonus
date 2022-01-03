@@ -6,12 +6,12 @@
    <elementGuidId>739d4ceb-c56a-4ba7-87fc-4616e1adba1b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#id_s__smtpsecure</value>
+         <key>XPATH</key>
+         <value>//select[@id='id_s__smtpsecure']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value></value>
+         <key>CSS</key>
+         <value>#id_s__smtpsecure</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -74,7 +74,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='yui_3_17_2_1_1641185401760_73']/select</value>
+      <value>//div[@id='yui_3_17_2_1_1641186597301_65']/select</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +110,13 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//select</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='yui_3_17_2_1_1641185401760_73']/select</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

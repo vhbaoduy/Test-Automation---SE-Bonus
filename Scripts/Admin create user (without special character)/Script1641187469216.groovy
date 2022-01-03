@@ -23,28 +23,28 @@ WebUI.click(findTestObject('Object Repository/Page_Dashboard/span_Site administr
 
 WebUI.navigateToUrl('http://localhost/admin/search.php')
 
-WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Search/a_Server'))
+WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Search/a_Users'))
 
-WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Search/a_Outgoing mail configuration'))
+WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Search/a_Add a new user'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Moodle Administration Server Email Out_d1e642/input_smtphosts_s__smtphosts'), 
-    'smtp.gmail.com:587')
+WebUI.setText(findTestObject('Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/input_Username_username'), 
+    'trongle')
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Moodle Administration Server Email Out_d1e642/select_None            SSL            TLS'), 
-    'tls', true)
+WebUI.click(findTestObject('Page_Moodle Administration Users Accounts Add a new user/a_Click to enter text'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Moodle Administration Server Email Out_d1e642/input_smtpuser_s__smtpuser'), 
-    'moodle.testing.team@gmail.com')
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/input_New password_newpassword'), 
+    'mCo/tqFMQKuexH2GqaxtIQ==')
 
-WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Server Email Out_d1e642/i_Click to enter text_icon fa fa-pencil fa-fw'))
+WebUI.setText(findTestObject('Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/input_First name_firstname'), 
+    'Trong')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Moodle Administration Server Email Out_d1e642/input_smtppass_s__smtppass'), 
-    'vmGLb5mQ4V2AGvF7YR/3BQ==')
+WebUI.setText(findTestObject('Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/input_Surname_lastname'), 
+    'Le')
 
-WebUI.setText(findTestObject('Object Repository/Page_Moodle Administration Server Email Out_d1e642/input_noreplyaddress_s__noreplyaddress'), 
-    'moodle.testing.team@gmail.com')
+WebUI.setText(findTestObject('Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/input_Email address_email'), 
+    'quoctrongle2001@gmail.com')
 
-WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Server Email Out_d1e642/button_Save changes'))
+WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/input_Address_submitbutton'))
 
-WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Server Email Out_d1e642/div_Changes saved'))
+WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/div_The password must have at least 1 speci_80717b'))
 

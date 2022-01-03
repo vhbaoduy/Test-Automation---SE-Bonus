@@ -6,12 +6,12 @@
    <elementGuidId>2d496b94-772b-4593-93a2-b6132282a262</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//div[@id='yui_3_17_2_1_1641186493565_24']/ul/li/a</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='linkserver']/div/div[3]/div[2]/ul/li/a</value>
+         <key>CSS</key>
+         <value>#yui_3_17_2_1_1641186493565_24 > ul.list-unstyled > li > a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -42,14 +42,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;linkserver&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-9&quot;]/ul[@class=&quot;list-unstyled&quot;]/li[1]/a[1]</value>
+      <value>id(&quot;yui_3_17_2_1_1641186493565_24&quot;)/ul[@class=&quot;list-unstyled&quot;]/li[1]/a[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='linkserver']/div/div[3]/div[2]/ul/li/a</value>
+      <value>//div[@id='yui_3_17_2_1_1641186493565_24']/ul/li/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,5 +106,12 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[18]/div/div[3]/div[2]/ul/li/a</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='linkserver']/div/div[3]/div[2]/ul/li/a</value>
    </webElementXpaths>
 </WebElementEntity>

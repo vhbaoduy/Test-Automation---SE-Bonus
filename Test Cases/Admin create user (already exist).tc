@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Admin create user (already exist)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4e5c867f-aeea-4b6a-98da-60ea90a2fbe0</testCaseGuid>
+</TestCaseEntity>

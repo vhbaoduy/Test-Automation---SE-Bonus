@@ -6,12 +6,12 @@
    <elementGuidId>8cfccb15-15b5-4e8b-8c83-aff9217673b4</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#id_s__smtpuser</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@id='id_s__smtpuser']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#id_s__smtpuser</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -40,13 +40,6 @@
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>value</name>
-      <type>Main</type>
-      <value>moodle.testing.team@gmail.com</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>size</name>
       <type>Main</type>
       <value>30</value>
@@ -71,6 +64,13 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;id_s__smtpuser&quot;)</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>moodle.testing.team@gmail.com</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
