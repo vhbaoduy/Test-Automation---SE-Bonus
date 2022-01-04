@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Admin suspend user account</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2e76d376-357d-47b5-bdc8-28483dde5f2b</testCaseGuid>
+</TestCaseEntity>

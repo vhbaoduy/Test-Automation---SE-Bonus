@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Assgin 'voduy' to role adminstrators</description>
+   <name>Admin assign system adminstators</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>43cf5651-2519-40d8-b8a7-7c860d2be26c</testCaseGuid>
+</TestCaseEntity>

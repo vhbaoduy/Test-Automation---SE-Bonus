@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Upload_User_Wrong</name>
+   <name>Admin upload user wrong with csv</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>c836a4bd-e78c-4d37-819b-a04b9cbee131</testCaseGuid>

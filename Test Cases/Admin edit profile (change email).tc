@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Admin edit profile (change email)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0be9fa16-92df-4ecc-9ac9-0ab8b3c76ba9</testCaseGuid>
+</TestCaseEntity>
