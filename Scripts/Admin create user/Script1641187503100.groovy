@@ -48,3 +48,18 @@ WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Users A
 
 WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Users Accounts B_4543d8/div_Changes saved'))
 
+WebUI.click(findTestObject('Object Repository/Page_MT Administration Users Accounts Upload users/a_Admin User'))
+
+WebUI.click(findTestObject('Object Repository/Page_MT Administration Users Accounts Upload users/span_Log out'))
+
+WebUI.click(findTestObject('Object Repository/Page_Moodle Testing/a_Log in'))
+
+WebUI.setText(findTestObject('Object Repository/Page_Moodle Testing Log in to the site/input_Username_username'), 'trongle')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Moodle Testing Log in to the site/input_Password_password'), 
+    'Ta6u/19GniC0jLl2J4N0KA==')
+
+WebUI.click(findTestObject('Object Repository/Page_Moodle Testing Log in to the site/button_Log in'))
+
+WebUI.click(findTestObject('Object Repository/Page_Dashboard/i_MT_icon fa fa-bell fa-fw'))
+

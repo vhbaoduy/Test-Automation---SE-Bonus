@@ -17,15 +17,24 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('Login as user (student)'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('http://localhost/')
+WebUI.click(findTestObject('Object Repository/Page_Dashboard/span_Site home'))
 
-WebUI.click(findTestObject('Object Repository/Page_My Moodle/a_Log in'))
+WebUI.navigateToUrl('http://localhost/?redirect=0')
 
-WebUI.setText(findTestObject('Object Repository/Page_My Moodle Log in to the site/input_Username_username'), 'trongle')
+WebUI.click(findTestObject('Object Repository/Page_My Moodle/a_Phn tch v qun l yu cu phn mm'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_My Moodle Log in to the site/input_Password_password'), 'Ta6u/19GniC0jLl2J4N0KA==')
+WebUI.click(findTestObject('Object Repository/Page_Course Phn tch v qun l yu cu phn mm/span_Assignment 1'))
 
-WebUI.click(findTestObject('Object Repository/Page_My Moodle Log in to the site/button_Log in'))
+WebUI.click(findTestObject('Object Repository/Page_CSC13005 Assignment 1/button_Add submission'))
+
+WebUI.setText(findTestObject('Object Repository/Page_CSC13005 Assignment 1 - Edit submission/div_Testing Student submit assignment'), 
+    '<p dir="ltr" style="text-align: left;">Testing: Student submit assignment</p>')
+
+WebUI.click(findTestObject('Object Repository/Page_CSC13005 Assignment 1 - Edit submission/input_Loading_submitbutton'))
+
+WebUI.click(findTestObject('Object Repository/Page_CSC13005 Assignment 1/td_Submitted for grading'))
+
+WebUI.click(findTestObject('Object Repository/Page_CSC13005 Assignment 1/p_Testing Student submit assignment'))
 

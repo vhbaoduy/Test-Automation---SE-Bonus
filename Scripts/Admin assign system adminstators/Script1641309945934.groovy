@@ -27,8 +27,8 @@ WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Search/
 
 WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Search/a_Site administrators'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Moodle Administration Users Permission_a5c101/select_V Duy (vhbaoduy0808gmail.com)'), 
-    '3', true)
+WebUI.selectOptionByValue(findTestObject('Page_Moodle Administration Users Permission_6fdc16/select_V Duy (vhbaoduy0808gmail.com)    Adm_1c62ef_1'), 
+    '1', true)
 
 WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Users Permission_a5c101/input_Match the search text anywhere in the_89f7b5'))
 

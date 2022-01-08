@@ -6,12 +6,12 @@
    <elementGuidId>2ee364ce-5454-40c1-bd30-5afacfec9c2b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//select[@id='id_roletoassign']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#id_roletoassign</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='id_roletoassign']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -77,7 +77,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='yui_3_17_2_1_1641606877754_273']/select</value>
+      <value>//div[@id='yui_3_17_2_1_1641631260189_360']/select</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,7 +91,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='v.hbaoduy@gmail.com'])[2]/following::select[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='▼'])[1]/following::select[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,5 +113,19 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[2]/select</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='yui_3_17_2_1_1641606877754_273']/select</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='v.hbaoduy@gmail.com'])[2]/following::select[1]</value>
    </webElementXpaths>
 </WebElementEntity>

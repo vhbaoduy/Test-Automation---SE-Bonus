@@ -10,11 +10,21 @@
          <value>#id_uupasswordnew</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'uupasswordnew' and @id = 'id_uupasswordnew' and (text() = '
+            Field required in file
+            Create password if needed and send via email
+        ' or . = '
+            Field required in file
+            Create password if needed and send via email
+        ')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//select[@id='id_uupasswordnew']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

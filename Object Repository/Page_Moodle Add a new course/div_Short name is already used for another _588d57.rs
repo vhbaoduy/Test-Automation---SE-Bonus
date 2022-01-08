@@ -10,6 +10,14 @@
          <value>#id_error_shortname</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'id_error_shortname' and (text() = '
+            Short name is already used for another course (Thiết kế phần mềm)
+        ' or . = '
+            Short name is already used for another course (Thiết kế phần mềm)
+        ')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='id_error_shortname']</value>
       </entry>

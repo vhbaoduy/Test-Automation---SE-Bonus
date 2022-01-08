@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Login as user</name>
+   <name>Student submit assignment</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>8d833c69-909e-4772-99e3-92f3e76e26af</testCaseGuid>
+   <testCaseGuid>87cc62dd-6342-431e-afd0-a70c1d8608db</testCaseGuid>
 </TestCaseEntity>

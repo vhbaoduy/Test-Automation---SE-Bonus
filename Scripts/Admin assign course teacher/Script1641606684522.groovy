@@ -27,35 +27,26 @@ WebUI.click(findTestObject('Object Repository/Page_My Moodle/a_Phn tch v qun l y
 
 WebUI.click(findTestObject('Object Repository/Page_Course Phn tch v qun l yu cu phn mm/span_Participants'))
 
-WebUI.click(findTestObject('Object Repository/Page_CSC13005 Participants/input_With selected users_btn btn-secondary my-1'))
+WebUI.click(findTestObject('Object Repository/Page_CSC13005 Participants/input_Participants_btn btn-secondary my-1'))
 
-WebUI.click(findTestObject('Object Repository/Page_CSC13005 Participants/span_'))
+WebUI.setText(findTestObject('Object Repository/Page_CSC13005 Participants/input_No selection_form_autocomplete_input-_86ed1a'), 
+    'teacher')
 
-WebUI.click(findTestObject('Object Repository/Page_CSC13005 Participants/span_quoctrongle2001gmail.com'))
+WebUI.click(findTestObject('Object Repository/Page_CSC13005 Participants/span_Teacher Testing'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_CSC13005 Participants/select_V Duy    vhbaoduy0808gmail.com      _651d13'), 
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_CSC13005 Participants/select_Teacher One    t1example.com        _0fad96'), 
+    '7', true)
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_CSC13005 Participants/select_Teacher One    t1example.com        _0fad96'), 
+    '7', true)
+
+WebUI.click(findTestObject('Object Repository/Page_CSC13005 Participants/span_Teacher One'))
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_CSC13005 Participants/select_Teacher One    t1example.com        _0fad96'), 
     '6', true)
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_CSC13005 Participants/select_V Duy    vhbaoduy0808gmail.com      _651d13'), 
-    '6', true)
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_CSC13005 Participants/select_V Duy    vhbaoduy0808gmail.com      _651d13'), 
-    '6', true)
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_CSC13005 Participants/select_V Duy    vhbaoduy0808gmail.com      _651d13'), 
-    '6', true)
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_CSC13005 Participants/select_V Duy    vhbaoduy0808gmail.com      _651d13'), 
-    '6', true)
-
-WebUI.click(findTestObject('Object Repository/Page_CSC13005 Participants/div_Select users'))
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_CSC13005 Participants/select_Manager            Teacher          _ffc00f'), 
     '3', true)
 
 WebUI.click(findTestObject('Object Repository/Page_CSC13005 Participants/button_Enrol users'))
-
-WebUI.click(findTestObject('Object Repository/Page_CSC13005 Participants/td_quoctrongle2001gmail.com'))
-
-WebUI.closeBrowser()
 

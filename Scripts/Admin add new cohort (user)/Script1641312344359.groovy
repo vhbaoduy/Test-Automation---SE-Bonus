@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Login as admin'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page_Dashboard/span_Site administration'))
+WebUI.click(findTestObject('Object Repository/Page_Dashboard/a_Site administration'))
 
 WebUI.navigateToUrl('http://localhost/admin/search.php')
 
@@ -29,11 +29,17 @@ WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Search/
 
 WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Users Accounts Cohorts/a_Add new cohort'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Add new cohort/div_1 1'), '1 <p>1</p>')
+WebUI.setText(findTestObject('Object Repository/Page_Add new cohort/input_Name_name'), 'Teachers')
+
+WebUI.setText(findTestObject('Object Repository/Page_Add new cohort/input_Cohort ID_idnumber'), '01')
+
+WebUI.click(findTestObject('Object Repository/Page_Add new cohort/input_Description_submitbutton'))
+
+WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Users Accounts Cohorts/a_Add new cohort'))
 
 WebUI.setText(findTestObject('Object Repository/Page_Add new cohort/input_Name_name'), 'Students')
 
-WebUI.setText(findTestObject('Object Repository/Page_Add new cohort/input_Cohort ID_idnumber'), '01')
+WebUI.setText(findTestObject('Object Repository/Page_Add new cohort/input_Cohort ID_idnumber'), '02')
 
 WebUI.click(findTestObject('Object Repository/Page_Add new cohort/input_Description_submitbutton'))
 
