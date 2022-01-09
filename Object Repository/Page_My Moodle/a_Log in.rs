@@ -6,12 +6,12 @@
    <elementGuidId>7d79e6d5-2464-437a-8eda-981534dfed4b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='page-wrapper']/nav/ul[2]/li[2]/div/span/a</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>span.login > a</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='page-wrapper']/nav/ul[2]/li[2]/div/span/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
