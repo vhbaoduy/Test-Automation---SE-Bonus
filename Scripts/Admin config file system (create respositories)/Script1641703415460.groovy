@@ -17,15 +17,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Login as user (student)'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Login as admin'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page_Dashboard/a_Go to calendar'))
+WebUI.click(findTestObject('Object Repository/Page_Dashboard/span_Site administration'))
 
-WebUI.navigateToUrl('http://localhost/calendar/view.php?view=upcoming')
+WebUI.navigateToUrl('http://localhost/admin/search.php')
 
-WebUI.click(findTestObject('Object Repository/Page_Moodle Calendar Upcoming events/a_February 2022'))
+WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Search/a_Plugins'))
 
-WebUI.click(findTestObject('Object Repository/Page_Moodle Calendar Detailed month view Fe_b28105/span_Cc bn s thi vo ngy 31022022'))
+WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Search/a_Manage repositories'))
 
-WebUI.click(findTestObject('Object Repository/Page_Moodle Calendar Detailed month view Fe_b28105/h5_Cc bn s thi vo ngy 31022022'))
+WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Plugins Reposito_4b46d1/a_Settings'))
+
+WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Plugins Reposito_90c615/button_Create a repository instance'))
+
+WebUI.setText(findTestObject('Object Repository/Page_Moodle Administration Plugins Reposito_b84f2c/input_Name_name'), 'csv')
+
+WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Plugins Reposito_b84f2c/input_Allow relative files_relativefiles'))
+
+WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Plugins Reposito_b84f2c/input_This allows all files in the reposito_ba0d3d'))
 

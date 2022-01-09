@@ -29,7 +29,7 @@ WebUI.click(findTestObject('Page_Moodle Administration Users Accounts Upload use
 
 WebUI.click(findTestObject('Page_Moodle Administration Users Accounts Upload users/a_csv'))
 
-WebUI.click(findTestObject('Page_Moodle Administration Users Accounts Upload users/div_Search repository_fp-reficons2'))
+WebUI.click(findTestObject('Page_Moodle Administration Users Accounts Upload users/usercorrect'))
 
 WebUI.click(findTestObject('Page_Moodle Administration Users Accounts Upload users/button_Select this file'))
 

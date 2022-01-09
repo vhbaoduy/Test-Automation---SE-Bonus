@@ -6,12 +6,12 @@
    <elementGuidId>795c66e2-0f7c-4cf0-b00f-9d258e72f7c6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#id_relativefiles</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@id='id_relativefiles']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#id_relativefiles</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -84,7 +84,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='yui_3_17_2_1_1641196102191_60']/input</value>
+      <value>//div[@id='yui_3_17_2_1_1641702785777_60']/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +92,13 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[5]/div[2]/div/input</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='yui_3_17_2_1_1641196102191_60']/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

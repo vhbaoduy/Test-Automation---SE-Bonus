@@ -6,19 +6,19 @@
    <elementGuidId>f220dd9a-b19a-44be-851c-61c74dc5ac9e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//table[@id='repositoriessetting']/tbody/tr[9]/td[4]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//*[@href = 'http://localhost/admin/repository.php?sesskey=uXDSExcMFN&amp;action=edit&amp;repos=filesystem' and (text() = 'Settings' or . = 'Settings')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -32,7 +32,7 @@
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>http://localhost/admin/repository.php?sesskey=uXDSExcMFN&amp;action=edit&amp;repos=filesystem</value>
+      <value>http://localhost/admin/repository.php?sesskey=LScF5qxTVn&amp;action=edit&amp;repos=filesystem</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -95,7 +95,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[@href='http://localhost/admin/repository.php?sesskey=uXDSExcMFN&amp;action=edit&amp;repos=filesystem']</value>
+      <value>//a[@href='http://localhost/admin/repository.php?sesskey=LScF5qxTVn&amp;action=edit&amp;repos=filesystem']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,6 +103,13 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[9]/td[4]/a</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[@href='http://localhost/admin/repository.php?sesskey=uXDSExcMFN&amp;action=edit&amp;repos=filesystem']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

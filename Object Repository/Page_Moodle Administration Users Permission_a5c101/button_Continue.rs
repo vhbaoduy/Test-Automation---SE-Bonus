@@ -6,12 +6,12 @@
    <elementGuidId>4c7f5ca4-8ba0-4667-b3e1-c4aa5e9d62da</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#single_button61d4674287f4f15</value>
+         <key>XPATH</key>
+         <value>//button[@id='single_button61da8e2ab398d15']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@id='single_button61d4674287f4f15']</value>
+         <key>CSS</key>
+         <value>#single_button61da8e2ab398d15</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -42,7 +42,7 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>single_button61d4674287f4f15</value>
+      <value>single_button61da8e2ab398d15</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -56,14 +56,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;single_button61d4674287f4f15&quot;)</value>
+      <value>id(&quot;single_button61da8e2ab398d15&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//button[@id='single_button61d4674287f4f15']</value>
+      <value>//button[@id='single_button61da8e2ab398d15']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,5 +113,19 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/div/form/button</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@id='single_button61da7b99a031e15']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@id='single_button61d4674287f4f15']</value>
    </webElementXpaths>
 </WebElementEntity>

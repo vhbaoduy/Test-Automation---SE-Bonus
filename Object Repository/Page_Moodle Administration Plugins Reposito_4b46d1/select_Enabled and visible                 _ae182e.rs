@@ -6,16 +6,16 @@
    <elementGuidId>d1f2103b-ae76-409a-971a-56ae1c448b96</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#single_select61d2a9f6a381127</value>
+         <key>XPATH</key>
+         <value>//select[@id='single_select61da6562b401c27']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value></value>
+         <key>CSS</key>
+         <value>#single_select61da6562b401c27</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>id(&quot;single_select61d2a9f6a381127&quot;)[count(. | //*[@id = 'single_select61d2a9f6a381127' and @name = 'action' and (text() = '
+         <value>//*[@id = 'single_select61da6562b401c27' and @name = 'action' and (text() = '
                     Enabled and visible
                     Enabled but hidden
                     Disabled
@@ -23,15 +23,7 @@
                     Enabled and visible
                     Enabled but hidden
                     Disabled
-        ')]) = count(//*[@id = 'single_select61d2a9f6a381127' and @name = 'action' and (text() = '
-                    Enabled and visible
-                    Enabled but hidden
-                    Disabled
-        ' or . = '
-                    Enabled and visible
-                    Enabled but hidden
-                    Disabled
-        ')])]</value>
+        ')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -48,7 +40,7 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>single_select61d2a9f6a381127</value>
+      <value>single_select61da6562b401c27</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -83,18 +75,18 @@
         </value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;single_select61d2a9f6a381127&quot;)</value>
+      <value>id(&quot;single_select61da6562b401c27&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//select[@id='single_select61d2a9f6a381127']</value>
+      <value>//select[@id='single_select61da6562b401c27']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -137,6 +129,13 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[13]/td[2]/div/form/select</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='single_select61d2a9f6a381127']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

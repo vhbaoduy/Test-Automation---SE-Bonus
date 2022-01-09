@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Admin config file system</name>
+   <name>Admin config file system (create respositories)</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>c300dde1-494b-465e-a66e-1682d23edb56</testCaseGuid>

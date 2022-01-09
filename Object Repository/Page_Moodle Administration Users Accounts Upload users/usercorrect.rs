@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Search repository_yui_3_17_2_1_16411467_dc884e</name>
+   <name>usercorrect</name>
    <tag></tag>
-   <elementGuidId>addc2d2e-b274-482c-9d30-d286f8a6c409</elementGuidId>
+   <elementGuidId>9d3e80fa-f52d-43ae-8dad-f3a484046944</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='yui_3_17_2_1_1641146752506_664']</value>
+         <value>//a[@id='yui_3_17_2_1_1641705371641_716']/div/div[3]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#yui_3_17_2_1_1641146752506_664</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@id = 'yui_3_17_2_1_1641146752506_664']</value>
+         <value>#yui_3_17_2_1_1641705371641_716 > div > div.fp-reficons2</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -37,36 +33,22 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>yui_3_17_2_1_1641146752506_664</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;yui_3_17_2_1_1641146752506_664&quot;)</value>
+      <value>id(&quot;yui_3_17_2_1_1641705371641_716&quot;)/div[1]/div[@class=&quot;fp-reficons2&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//div[@id='yui_3_17_2_1_1641146752506_664']</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='yui_3_17_2_1_1641146752506_665']/div[3]</value>
+      <value>//a[@id='yui_3_17_2_1_1641705371641_716']/div/div[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//a[2]/div/div[3]</value>
+      <value>//a[6]/div/div[3]</value>
    </webElementXpaths>
 </WebElementEntity>

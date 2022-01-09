@@ -27,8 +27,8 @@ WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Search/
 
 WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Search/a_Site administrators'))
 
-WebUI.selectOptionByValue(findTestObject('Page_Moodle Administration Users Permission_6fdc16/select_V Duy (vhbaoduy0808gmail.com)    Adm_1c62ef_1'), 
-    '1', true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Moodle Administration Users Permission_a5c101/select_V Duy (vhbaoduy0808gmail.com)    Tro_952a8e'), 
+    '3', true)
 
 WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Users Permission_a5c101/input_Match the search text anywhere in the_89f7b5'))
 
@@ -36,7 +36,7 @@ WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Users P
 
 WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Users Permission_a5c101/a_Admin Team'))
 
-WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Users Permission_a5c101/a_Log out'))
+WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Users Permission_a5c101/span_Log out'))
 
 WebUI.click(findTestObject('Object Repository/Page_My Moodle/a_Log in'))
 
@@ -49,10 +49,4 @@ WebUI.click(findTestObject('Object Repository/Page_My Moodle Log in to the site/
 WebUI.click(findTestObject('Object Repository/Page_Dashboard/span_Site administration'))
 
 WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Search/a_Users'))
-
-WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Search/a_Site administrators'))
-
-WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Users Permission_a5c101/a_V Duy'))
-
-WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Users Permission_a5c101/a_Log out_1'))
 

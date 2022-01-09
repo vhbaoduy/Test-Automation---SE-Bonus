@@ -6,12 +6,16 @@
    <elementGuidId>3af17c42-1675-4b7b-a7f4-d74ee4460f5b</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//input[@id='id_enablecourseinstances']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>#id_enablecourseinstances</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='id_enablecourseinstances']</value>
+         <key>BASIC</key>
+         <value>//*[@type = 'checkbox' and @name = 'enablecourseinstances' and @id = 'id_enablecourseinstances']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -77,7 +81,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='yui_3_17_2_1_1641196088575_51']/input</value>
+      <value>//div[@id='yui_3_17_2_1_1641702760458_51']/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +89,13 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/input</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='yui_3_17_2_1_1641196088575_51']/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
