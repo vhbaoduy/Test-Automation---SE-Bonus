@@ -5,7 +5,7 @@
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
-   <numberOfRerun>3</numberOfRerun>
+   <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
@@ -156,6 +156,12 @@
       <testCaseId>Test Cases/Admin assign student to course</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>6e073438-b988-4b1b-8bf4-7be581e8f26d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Admin view grade of course</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>fb7ee921-3dc9-4e9c-ad95-65a79872633b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -178,12 +184,6 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Teacher create announcement (video)</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>6e073438-b988-4b1b-8bf4-7be581e8f26d</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Admin view grade of course</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>ad8e8d51-7c4b-45a2-960e-94b8e4736591</guid>
