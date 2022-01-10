@@ -6,12 +6,12 @@
    <elementGuidId>55643e1f-930d-44ce-898e-52a54b0ff98d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#all-8 > div.optionscontainer.d-flex.flex-wrap.p-1.mw-100.position-relative > div.option.border-0.card.m-1.bg-white > div.optioninfo.card-body.d-flex.flex-column.text-center.p-1 > a.d-flex.flex-column.justify-content-between.flex-fill > div.optionicon.mt-2.mb-1.icon-size-5.icon-no-margin > img.icon.icon</value>
+         <key>XPATH</key>
+         <value>//img[contains(@src,'http://localhost/theme/image.php/boost/assign/1641027644/icon')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='all-8']/div/div/div/a/div/img</value>
+         <key>CSS</key>
+         <value>#all-8 > div.optionscontainer.d-flex.flex-wrap.p-1.mw-100.position-relative > div.option.border-0.card.m-1.bg-white > div.optioninfo.card-body.d-flex.flex-column.text-center.p-1 > a.d-flex.flex-column.justify-content-between.flex-fill > div.optionicon.mt-2.mb-1.icon-size-5.icon-no-margin > img.icon.icon</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

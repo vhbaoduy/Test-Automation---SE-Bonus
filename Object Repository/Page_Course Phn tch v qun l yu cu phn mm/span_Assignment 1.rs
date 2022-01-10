@@ -6,12 +6,11 @@
    <elementGuidId>407e9023-f9bb-47e6-a76c-5fa7f11028b4</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Mark as done'])[1]/following::span[1]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//li[@id='module-3']/div/div/div[2]/div/a/span</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

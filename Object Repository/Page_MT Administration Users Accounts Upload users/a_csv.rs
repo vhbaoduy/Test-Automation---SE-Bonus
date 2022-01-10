@@ -6,12 +6,12 @@
    <elementGuidId>6b4ecd2d-c6a2-4c5d-be20-bf6c6e4c3233</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#yui_3_17_2_1_1641146313885_622</value>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Wikimedia'])[1]/following::a[1]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@id='yui_3_17_2_1_1641146313885_622']</value>
+         <key>CSS</key>
+         <value>#yui_3_17_2_1_1641146313885_622</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

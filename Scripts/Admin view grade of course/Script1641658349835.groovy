@@ -27,9 +27,3 @@ WebUI.click(findTestObject('Object Repository/Page_My Moodle/a_Phn tch v qun l y
 
 WebUI.click(findTestObject('Object Repository/Page_Course Phn tch v qun l yu cu phn mm/span_Grades'))
 
-WebUI.click(findTestObject('Object Repository/Page_Grades View/th_Overall average'))
-
-WebUI.click(findTestObject('Object Repository/Page_Grades View/td_10.00'))
-
-WebUI.click(findTestObject('Object Repository/Page_Grades View/td_10.00'))
-

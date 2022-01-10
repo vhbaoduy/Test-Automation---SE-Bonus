@@ -7,14 +7,14 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[@id='yui_3_17_2_1_1641705371641_716']/div/div[3]</value>
+         <value>//a[6]/div/div[3]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>#yui_3_17_2_1_1641705371641_716 > div > div.fp-reficons2</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

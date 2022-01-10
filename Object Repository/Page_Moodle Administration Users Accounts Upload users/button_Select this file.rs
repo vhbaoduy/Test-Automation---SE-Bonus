@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='filepicker-select-61d295405236e']/div[2]/form/div[4]/div/button</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Choose licence'])[1]/following::button[1]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -18,7 +18,7 @@
          <value>//*[(text() = 'Select this file' or . = 'Select this file')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

@@ -6,12 +6,12 @@
    <elementGuidId>bcba76b7-1d82-46cd-ae0e-21848ea80fee</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#form_autocomplete_suggestions-1641633890364-0</value>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='▼'])[1]/following::li[1]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//li[@id='form_autocomplete_suggestions-1641633890364-0']</value>
+         <key>CSS</key>
+         <value>#form_autocomplete_suggestions-1641633890364-0</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

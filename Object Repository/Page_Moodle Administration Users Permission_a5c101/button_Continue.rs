@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id='single_button61da8e2ab398d15']</value>
+         <value>//div[@id='modal-footer']/div/div/form/button</value>
       </entry>
       <entry>
          <key>CSS</key>

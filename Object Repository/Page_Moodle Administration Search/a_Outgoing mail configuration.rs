@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='yui_3_17_2_1_1641186493565_24']/ul/li/a</value>
+         <value>//a[contains(text(),'Outgoing mail configuration')]</value>
       </entry>
       <entry>
          <key>CSS</key>

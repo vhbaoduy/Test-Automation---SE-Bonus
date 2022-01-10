@@ -6,12 +6,12 @@
    <elementGuidId>7ae9e297-d6ef-4ae1-94be-9fa7de7b4316</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#yui_3_17_2_1_1641633890081_758</value>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Minute'])[1]/following::button[1]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@id='yui_3_17_2_1_1641633890081_758']</value>
+         <key>CSS</key>
+         <value>#yui_3_17_2_1_1641633890081_758</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

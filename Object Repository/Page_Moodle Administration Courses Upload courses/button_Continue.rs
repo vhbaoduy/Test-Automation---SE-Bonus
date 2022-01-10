@@ -6,12 +6,12 @@
    <elementGuidId>6ead4875-00f7-4aa4-acf3-1aed67bb2bb8</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#single_button61d85d471ef8d15</value>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Courses deleted: 0'])[1]/following::button[1]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@id='single_button61d85d471ef8d15']</value>
+         <key>CSS</key>
+         <value>#single_button61d85d471ef8d15</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

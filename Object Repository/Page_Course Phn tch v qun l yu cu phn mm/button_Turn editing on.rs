@@ -6,16 +6,16 @@
    <elementGuidId>2e7471a3-282d-494c-a087-cb47565e66b9</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//header[@id='page-header']/div/div/div/div[2]/div[2]/div/form/button</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>#single_button61dae13f632341</value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//*[@type = 'submit' and @id = 'single_button61d95a19cf43c1' and (text() = 'Turn editing on' or . = 'Turn editing on')]</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//button[@id='single_button61dae13f632341']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

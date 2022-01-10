@@ -6,12 +6,12 @@
    <elementGuidId>f8f7f2e4-dbe3-4b98-8d45-ac99f2a7cff4</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>button.btn.btn-secondary.float-sm-right.float-right</value>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='List of courses'])[1]/following::button[1]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='calendar-month-61d9bb8353b5861d9bb831e07616']/div/button</value>
+         <key>CSS</key>
+         <value>button.btn.btn-secondary.float-sm-right.float-right</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

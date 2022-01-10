@@ -6,12 +6,12 @@
    <elementGuidId>c76f4644-7974-4d59-9dd3-3b6566e7221e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#yui_3_17_2_1_1641733919717_616</value>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Add file(s) here'])[1]/following::span[1]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//span[@id='yui_3_17_2_1_1641733919717_616']</value>
+         <key>CSS</key>
+         <value>#yui_3_17_2_1_1641733919717_616</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -6,12 +6,11 @@
    <elementGuidId>93238fad-394d-458f-b49e-4ab87b61beb4</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Next'])[1]/following::button[1]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//span[@id='tour-step-tool_usertours_8_2_1620109487-0']/div/div/div[4]/button[3]</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

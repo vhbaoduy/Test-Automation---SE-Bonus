@@ -25,15 +25,19 @@ WebUI.navigateToUrl('http://localhost/?redirect=0')
 
 WebUI.click(findTestObject('Object Repository/Page_My Moodle/a_Phn tch v qun l yu cu phn mm'))
 
-WebUI.click(findTestObject('Object Repository/Page_Course Phn tch v qun l yu cu phn mm/button_Turn editing on'))
+WebUI.click(findTestObject('Page_Course Phn tch v qun l yu cu phn mm/button_End tour'), FailureHandling.OPTIONAL)
+
+WebUI.click(findTestObject('Page_Course Thit k phn mm/button_Turn editing on'))
 
 WebUI.click(findTestObject('Object Repository/Page_Course Phn tch v qun l yu cu phn mm/span_Add an activity or resource'))
 
-WebUI.click(findTestObject('Object Repository/Page_Course Phn tch v qun l yu cu phn mm/img_Recommended_icon icon'))
+WebUI.click(findTestObject('Page_Course Thit k phn mm/a_Assignment'))
 
 WebUI.setText(findTestObject('Object Repository/Page_Editing Assignment/input_Assignment name_name'), 'Assignment #1')
 
 WebUI.click(findTestObject('Object Repository/Page_Editing Assignment/input_Upon activity completion_submitbutton2'))
+
+WebUI.click(findTestObject('Page_Course Phn tch v qun l yu cu phn mm/button_End tour'), FailureHandling.OPTIONAL)
 
 WebUI.click(findTestObject('Object Repository/Page_Course Phn tch v qun l yu cu phn mm/a_Trong Le'))
 
@@ -42,20 +46,4 @@ WebUI.click(findTestObject('Object Repository/Page_Course Phn tch v qun l yu cu 
 WebUI.click(findTestObject('Object Repository/Page_Switch role to/button_Student'))
 
 WebUI.click(findTestObject('Object Repository/Page_Course Phn tch v qun l yu cu phn mm/span_Assignment 1'))
-
-WebUI.click(findTestObject('Page_Dashboard/a_Teacher Testing'))
-
-WebUI.click(findTestObject('Object Repository/Page_MT Administration Users Accounts Upload users/span_Log out'))
-
-WebUI.click(findTestObject('Object Repository/Page_Moodle Testing/a_Log in'))
-
-WebUI.callTestCase(findTestCase('Login as user (student)'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('Object Repository/Page_Dashboard/a_Site home'))
-
-WebUI.navigateToUrl('http://localhost/?redirect=0')
-
-WebUI.click(findTestObject('Object Repository/Page_My Moodle/a_Phn tch v qun l yu cu phn mm'))
-
-WebUI.click(findTestObject('Page_Course Phn tch v qun l yu cu phn mm/span_Assignment 1'))
 

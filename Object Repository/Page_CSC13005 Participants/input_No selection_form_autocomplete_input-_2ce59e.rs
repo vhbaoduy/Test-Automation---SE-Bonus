@@ -6,12 +6,12 @@
    <elementGuidId>119cbf2d-49ca-4d5d-bb3f-214d74299667</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#form_autocomplete_input-1641633890364</value>
+         <key>XPATH</key>
+         <value>//div[3]/input</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='form_autocomplete_input-1641633890364']</value>
+         <key>CSS</key>
+         <value>#form_autocomplete_input-1641633890364</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

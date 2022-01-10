@@ -6,12 +6,12 @@
    <elementGuidId>c3924ecd-ce2d-43ad-8428-30ecb4c47be1</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#filepicker-button-61d1e980734cf</value>
+         <key>XPATH</key>
+         <value>//fieldset/div[2]/div/input</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='filepicker-button-61d1e980734cf']</value>
+         <key>CSS</key>
+         <value>#filepicker-button-61d1e980734cf</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

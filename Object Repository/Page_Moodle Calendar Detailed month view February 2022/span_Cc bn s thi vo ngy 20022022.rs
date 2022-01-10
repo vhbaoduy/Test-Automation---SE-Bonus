@@ -6,15 +6,15 @@
    <elementGuidId>ee62aaf0-88ec-45f4-8589-741b60120706</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>span.eventname</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//table[@id='month-detailed-61d9c1bc41b7261d9c1bc1653315']/tbody/tr[3]/td[7]/div/div/ul/li/a/span[2]</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.eventname</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

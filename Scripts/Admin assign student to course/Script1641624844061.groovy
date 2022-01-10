@@ -67,5 +67,3 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_My Moodle Log in t
 
 WebUI.click(findTestObject('Object Repository/Page_My Moodle Log in to the site/button_Log in'))
 
-WebUI.click(findTestObject('Object Repository/Page_Course Phn tch v qun l yu cu phn mm/span_Grades'))
-

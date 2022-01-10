@@ -57,5 +57,3 @@ WebUI.click(findTestObject('Object Repository/Page_Moodle Calendar Upcoming even
 
 WebUI.click(findTestObject('Page_Moodle Calendar Detailed month view February 2022/span_Cc bn s thi vo ngy 20022022'))
 
-WebUI.click(findTestObject('Page_Moodle Calendar Detailed month view February 2022/h5_Cc bn s thi vo ngy 20022022'))
-

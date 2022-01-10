@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//span[@id='yui_3_17_2_1_1641610609154_660']</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete'])[1]/following::span[3]</value>
       </entry>
       <entry>
          <key>CSS</key>

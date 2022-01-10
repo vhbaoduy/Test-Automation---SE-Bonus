@@ -6,12 +6,12 @@
    <elementGuidId>29fe80ca-e052-420a-b4a7-58dec44c50db</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#form_autocomplete_downarrow-1641567321082</value>
+         <key>XPATH</key>
+         <value>//div[@id='fitem_id_category']/div[2]/div[3]/span</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//span[@id='form_autocomplete_downarrow-1641567321082']</value>
+         <key>CSS</key>
+         <value>#form_autocomplete_downarrow-1641567321082</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='yui_3_17_2_1_1641611618293_2047']</value>
+         <value>//a[5]/div/div[3]</value>
       </entry>
       <entry>
          <key>CSS</key>

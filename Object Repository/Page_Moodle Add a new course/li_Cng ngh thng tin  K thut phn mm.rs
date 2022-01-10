@@ -6,12 +6,11 @@
    <elementGuidId>ddb011ef-bb50-4d44-a664-422db6c00485</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Công nghệ thông tin'])[2]/following::li[1]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(//li[@id=''])[2]</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

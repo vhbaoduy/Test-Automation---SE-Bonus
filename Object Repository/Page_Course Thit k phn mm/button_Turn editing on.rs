@@ -6,12 +6,12 @@
    <elementGuidId>a8a16158-cd13-4030-8858-1cfd5156aa29</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#single_button61d9355c2b7c51</value>
+         <key>XPATH</key>
+         <value>//header[@id='page-header']/div/div/div/div[2]/div[2]/div/form/button</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@id='single_button61d9355c2b7c51']</value>
+         <key>CSS</key>
+         <value>#single_button61dbc84ea02be1</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -42,7 +42,7 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>single_button61d9355c2b7c51</value>
+      <value>single_button61dbc84ea02be1</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -56,14 +56,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;single_button61d9355c2b7c51&quot;)</value>
+      <value>id(&quot;single_button61dbc84ea02be1&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//button[@id='single_button61d9355c2b7c51']</value>
+      <value>//button[@id='single_button61dbc84ea02be1']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,6 +113,13 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//form/button</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@id='single_button61d9355c2b7c51']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

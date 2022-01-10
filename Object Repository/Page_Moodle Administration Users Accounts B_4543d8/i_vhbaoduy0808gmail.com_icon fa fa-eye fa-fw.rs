@@ -6,12 +6,11 @@
    <elementGuidId>5558781c-fa74-4c4f-8e87-5933164bbcfb</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//td[6]/a[2]/i</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@id='yui_3_17_2_1_1641197869227_555']/i</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

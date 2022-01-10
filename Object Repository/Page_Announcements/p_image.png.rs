@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//p[@id='yui_3_17_2_1_1641609894501_1245']</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Search repository'])[1]/following::p[1]</value>
       </entry>
       <entry>
          <key>CSS</key>

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value></value>
+         <value>//select[@id='addselect']</value>
       </entry>
       <entry>
          <key>CSS</key>

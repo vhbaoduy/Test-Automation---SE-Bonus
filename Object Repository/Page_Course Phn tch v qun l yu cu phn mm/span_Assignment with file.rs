@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//li[@id='module-8']/div/div/div[2]/div/a/span</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Mark as done'])[2]/following::span[1]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
