@@ -21,7 +21,7 @@
       <guid>61de5079-73d4-4dc9-b57a-6be7fd374eed</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Admin config file system (create respositories)</testCaseId>
+      <testCaseId>Test Cases/Admin config file system (create repositories)</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>801fa61b-74f5-4bda-ab91-b77803dc44ef</guid>
@@ -81,7 +81,7 @@
       <guid>2431522f-85ae-416f-af95-2970086a0338</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Admin assign system adminstators</testCaseId>
+      <testCaseId>Test Cases/Admin assign system administrators</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>17c9ed5a-5ec1-4e0a-8e68-cf1e4c3e742f</guid>
