@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[@id='yui_3_17_2_1_1641634413571_67']</value>
+         <value>//a[contains(text(),'Timing')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

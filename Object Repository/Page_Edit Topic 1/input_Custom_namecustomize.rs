@@ -18,7 +18,7 @@
          <value>//*[@type = 'checkbox' and @name = 'name[customize]' and @id = 'id_name_customize']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//label[@id='yui_3_17_2_1_1641634379596_647']/input[2]</value>
+      <value>//label[@id='yui_3_17_2_1_1641913317154_646']/input[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,5 +110,12 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//label/input[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//label[@id='yui_3_17_2_1_1641634379596_647']/input[2]</value>
    </webElementXpaths>
 </WebElementEntity>

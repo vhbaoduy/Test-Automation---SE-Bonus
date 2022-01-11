@@ -25,21 +25,13 @@ WebUI.navigateToUrl('http://localhost/?redirect=0')
 
 WebUI.click(findTestObject('Object Repository/Page_My Moodle/a_Phn tch v qun l yu cu phn mm'))
 
-WebUI.click(findTestObject('Object Repository/Page_Course Phn tch v qun l yu cu phn mm/span_Quiz testing 01'))
+WebUI.click(findTestObject('Object Repository/Page_Course Thit k phn mm/button_End tour'))
 
-WebUI.click(findTestObject('Object Repository/Page_Course Phn tch v qun l yu cu phn mm/span_Quiz testing 01'))
+WebUI.click(findTestObject('Object Repository/Page_Course Thit k phn mm/span_Quiz 1'))
 
-WebUI.navigateToUrl('http://localhost/mod/quiz/view.php?id=5')
+WebUI.navigateToUrl('http://localhost/mod/quiz/view.php?id=8')
 
-WebUI.click(findTestObject('Object Repository/Page_CSC13005 Quiz Testing 01/button_Attempt quiz now'))
+WebUI.click(findTestObject('Object Repository/Page_CSC13010 Quiz 1/button_End tour'))
 
-WebUI.click(findTestObject('Object Repository/Page_CSC13005 Quiz Testing 01/input_Time limit_submitbutton'))
-
-WebUI.click(findTestObject('Object Repository/Page_Quiz Testing 01/input_concat(p dir, , ltr, ,  style, , text_8d338d'))
-
-WebUI.click(findTestObject('Object Repository/Page_Quiz Testing 01/input_d_next'))
-
-WebUI.click(findTestObject('Object Repository/Page_Quiz Testing 01 Attempt summary/button_Submit all and finish'))
-
-WebUI.click(findTestObject('Object Repository/Page_Quiz Testing 01 Attempt summary/input_Once you submit, you will no longer b_924807'))
+WebUI.click(findTestObject('Object Repository/Page_CSC13010 Quiz 1/div_No questions have been added yet'))
 

@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id='single_button61dae33e1e83915']</value>
+         <value>//section[@id='region-main']/div/div[3]/form/button</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

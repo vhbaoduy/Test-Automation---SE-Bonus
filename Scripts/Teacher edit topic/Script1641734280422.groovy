@@ -27,13 +27,17 @@ WebUI.click(findTestObject('Object Repository/Page_My Moodle/a_Phn tch v qun l y
 
 WebUI.click(findTestObject('Object Repository/Page_Course Phn tch v qun l yu cu phn mm/button_Turn editing on'))
 
-WebUI.click(findTestObject('Object Repository/Page_Course Phn tch v qun l yu cu phn mm/i_Topic 1_yui_3_17_2_1_1641734369355_650'))
+WebUI.click(findTestObject('Object Repository/Page_Course Thit k phn mm/a_Edit'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Course Phn tch v qun l yu cu phn mm/input_New name for topic Topic 1_id_inplace_ba18e1'), 
-    'Lecture 01')
+WebUI.click(findTestObject('Object Repository/Page_Course Thit k phn mm/span_Edit topic'))
 
-WebUI.sendKeys(findTestObject('Object Repository/Page_Course Phn tch v qun l yu cu phn mm/input_New name for topic Topic 1_id_inplace_ba18e1'), 
-    Keys.chord(Keys.ENTER))
+WebUI.navigateToUrl('http://localhost/course/editsection.php?id=12&sr')
 
-WebUI.click(findTestObject('Object Repository/Page_Course Phn tch v qun l yu cu phn mm/a_Lecture 01'))
+WebUI.click(findTestObject('Object Repository/Page_Edit Topic 1/input_Custom_namecustomize'))
+
+WebUI.setText(findTestObject('Object Repository/Page_Edit Topic 1/input_New value for Section name_namevalue'), 'Lecture 1')
+
+WebUI.click(findTestObject('Object Repository/Page_Edit Topic 1/input_Add restriction_submitbutton'))
+
+WebUI.click(findTestObject('Object Repository/Page_Course Thit k phn mm/a_Lecture 1'))
 

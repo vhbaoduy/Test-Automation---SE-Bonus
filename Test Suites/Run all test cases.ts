@@ -194,61 +194,61 @@
    <testCaseLink>
       <guid>335ad155-eed5-4c18-8eba-1a2a7c46542e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Teacher create assignment ( with file attached )</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>22e4aa7d-6794-4487-bb94-143cfd0aaca2</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Teacher create forum</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>a9fddbd6-f1a3-4042-9ee1-b3dc22a447c2</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Teacher create group in course</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>2b83c3fe-2f25-4229-9969-602bee746d84</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Teacher create new badge</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>426770e7-55cd-43ae-a9a3-844763562e79</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Teacher create new dicussion forum</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>dfe6ae70-6a65-492e-ad30-a5abe7260788</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Teacher create quiz</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>d9ea0fc4-4a18-493d-80bf-7dd799f5ff20</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Teacher edit topic</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>064c5aa0-4699-4d3c-a938-e13e64c36398</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Teacher delete topic</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>995c5e4b-3f30-4448-8206-420a6addab83</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Teacher upload rescourse</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>3adeb995-6cae-4325-96fc-e5a08922c427</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Login as user (student)</testCaseId>
    </testCaseLink>
    <testCaseLink>

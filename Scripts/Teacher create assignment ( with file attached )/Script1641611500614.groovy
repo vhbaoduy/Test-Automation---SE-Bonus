@@ -25,13 +25,13 @@ WebUI.navigateToUrl('http://localhost/?redirect=0')
 
 WebUI.click(findTestObject('Object Repository/Page_My Moodle/a_Phn tch v qun l yu cu phn mm'))
 
-WebUI.click(findTestObject('Page_Course Phn tch v qun l yu cu phn mm/button_End tour'), FailureHandling.OPTIONAL)
+not_run: WebUI.click(findTestObject('Page_Course Phn tch v qun l yu cu phn mm/button_End tour'), FailureHandling.OPTIONAL)
 
 WebUI.click(findTestObject('Object Repository/Page_Course Phn tch v qun l yu cu phn mm/button_Turn editing on'))
 
 WebUI.click(findTestObject('Object Repository/Page_Course Phn tch v qun l yu cu phn mm/span_Add an activity or resource'))
 
-WebUI.click(findTestObject('Page_Course Phn tch v qun l yu cu phn mm/img_Information about the Page activity_icon icon'))
+WebUI.click(findTestObject('Page_Course Thit k phn mm/a_Assignment'))
 
 WebUI.setText(findTestObject('Object Repository/Page_Editing Assignment/input_Assignment name_name'), 'Assignment with file')
 

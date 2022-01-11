@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//span[@id='actionmenuaction-17']</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Add an activity or resource'])[1]/following::span[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

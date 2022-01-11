@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//td[@id='grade-report-overview-4_r0_c0']/a</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Grade'])[1]/following::a[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

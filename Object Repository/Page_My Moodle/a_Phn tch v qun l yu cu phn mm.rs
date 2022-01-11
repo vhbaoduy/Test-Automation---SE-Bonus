@@ -10,12 +10,12 @@
          <value>a.aalink</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@href = 'http://localhost/course/view.php?id=2' and (text() = 'Phân tích và quản lý yêu cầu phần mềm' or . = 'Phân tích và quản lý yêu cầu phần mềm')]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='frontpage-available-course-list']/div/div/div/h3/a</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = 'http://localhost/course/view.php?id=2' and (text() = 'Phân tích và quản lý yêu cầu phần mềm' or . = 'Phân tích và quản lý yêu cầu phần mềm')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

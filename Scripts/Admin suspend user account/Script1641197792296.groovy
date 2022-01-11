@@ -35,9 +35,9 @@ WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Users A
 
 WebUI.click(findTestObject('Object Repository/Page_My Moodle/a_Log in'))
 
-WebUI.setText(findTestObject('Object Repository/Page_My Moodle Log in to the site/input_Username_username'), 'voduy')
+WebUI.setText(findTestObject('Object Repository/Page_My Moodle Log in to the site/input_Username_username'), 'student1')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_My Moodle Log in to the site/input_Password_password'), 'j1ZzzeKf8NiE21d5rsNRrQ==')
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_My Moodle Log in to the site/input_Password_password'), 'HeCM15nHKBI=')
 
 WebUI.click(findTestObject('Object Repository/Page_My Moodle Log in to the site/button_Log in'))
 

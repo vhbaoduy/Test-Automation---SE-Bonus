@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='id_subject']</value>
+         <value>//div[2]/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -6,12 +6,11 @@
    <elementGuidId>c74a0828-cd7e-475d-b0a3-0c042b7abf87</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='all-4']/div/div[8]/div/a/div/img</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//img[contains(@src,'http://localhost/theme/image.php/boost/resource/1641027644/icon')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

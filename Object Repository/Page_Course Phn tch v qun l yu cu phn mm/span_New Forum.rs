@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//li[@id='module-2']/div/div/div[2]/div/a/span</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Forum'])[1]/following::span[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

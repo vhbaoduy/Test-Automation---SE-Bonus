@@ -25,7 +25,11 @@ WebUI.navigateToUrl('http://localhost/?redirect=0')
 
 WebUI.click(findTestObject('Object Repository/Page_My Moodle/a_Phn tch v qun l yu cu phn mm'))
 
-WebUI.click(findTestObject('Object Repository/Page_Course Phn tch v qun l yu cu phn mm/span_New Forum'))
+WebUI.click(findTestObject('Page_Course Phn tch v qun l yu cu phn mm/button_End tour'), FailureHandling.OPTIONAL)
+
+WebUI.click(findTestObject('Page_Course Thit k phn mm/span_New Forum'))
+
+WebUI.click(findTestObject('Page_Course Phn tch v qun l yu cu phn mm/button_End tour'), FailureHandling.OPTIONAL)
 
 WebUI.click(findTestObject('Object Repository/Page_New Forum/a_Add a new discussion topic'))
 

@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='month-mini-2022-2-3']/table/caption/h3/a</value>
+         <value>//a[contains(text(),'February 2022')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

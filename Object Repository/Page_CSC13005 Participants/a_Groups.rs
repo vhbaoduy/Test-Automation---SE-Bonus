@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[@id='action_link61d9b5d7738e421']</value>
+         <value>//div[@id='action-menu-3-menu']/div[3]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

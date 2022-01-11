@@ -6,12 +6,12 @@
    <elementGuidId>255a4935-9c28-4367-96ce-de3c05d8c5ad</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//span[@id='tour-step-tool_usertours_2_1_1620109487-0']/div/div/div[4]/button[3]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[@id='tour-step-tool_usertours_8_2_1620109487-0']/div/div/div[4]/button[3]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -56,14 +56,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;tour-step-tool_usertours_2_1_1620109487-0&quot;)/div[@class=&quot;modal-dialog&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-footer&quot;]/button[@class=&quot;btn btn-primary&quot;]</value>
+      <value>id(&quot;tour-step-tool_usertours_8_2_1620109487-0&quot;)/div[@class=&quot;modal-dialog&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-footer&quot;]/button[@class=&quot;btn btn-primary&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//span[@id='tour-step-tool_usertours_2_1_1620109487-0']/div/div/div[4]/button[3]</value>
+      <value>//span[@id='tour-step-tool_usertours_8_2_1620109487-0']/div/div/div[4]/button[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,5 +92,12 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/button[3]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//span[@id='tour-step-tool_usertours_2_1_1620109487-0']/div/div/div[4]/button[3]</value>
    </webElementXpaths>
 </WebElementEntity>
