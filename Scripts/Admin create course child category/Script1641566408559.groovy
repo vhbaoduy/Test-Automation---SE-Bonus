@@ -32,7 +32,7 @@ WebUI.click(findTestObject('Object Repository/Page_Moodle Add new category/span_
 WebUI.click(findTestObject('Object Repository/Page_Moodle Add new category/li_Cng ngh thng tin'))
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Moodle Add new category/select_Top            Miscellaneous        _a56d48'), 
-    '2', true)
+    '2', true, FailureHandling.OPTIONAL)
 
 WebUI.setText(findTestObject('Object Repository/Page_Moodle Add new category/input_Category name_name'), 'Kỹ thuật phần mềm')
 

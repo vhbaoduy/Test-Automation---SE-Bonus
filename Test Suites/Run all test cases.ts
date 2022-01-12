@@ -216,10 +216,10 @@
       <testCaseId>Test Cases/Teacher create new badge</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>426770e7-55cd-43ae-a9a3-844763562e79</guid>
+      <guid>cb384866-cfd7-4075-ad47-e7d2fb2cd36e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Teacher create new dicussion forum</testCaseId>
+      <testCaseId>Test Cases/Admin edit course setting</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>dfe6ae70-6a65-492e-ad30-a5abe7260788</guid>
@@ -234,10 +234,10 @@
       <testCaseId>Test Cases/Teacher edit topic</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>064c5aa0-4699-4d3c-a938-e13e64c36398</guid>
+      <guid>9c176d75-b294-402e-87f7-f22c16744fb3</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Teacher delete topic</testCaseId>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/User change password</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>995c5e4b-3f30-4448-8206-420a6addab83</guid>
@@ -246,10 +246,10 @@
       <testCaseId>Test Cases/Teacher upload rescourse</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>3adeb995-6cae-4325-96fc-e5a08922c427</guid>
+      <guid>29a0e8a2-e37a-4191-9274-345ab40e553d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Login as user (student)</testCaseId>
+      <testCaseId>Test Cases/Teacher change type of assignment</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>fbb92a5e-1081-42c5-a9f3-7df94db2f13c</guid>
@@ -276,10 +276,10 @@
       <testCaseId>Test Cases/Student group chat</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>9c176d75-b294-402e-87f7-f22c16744fb3</guid>
+      <guid>064c5aa0-4699-4d3c-a938-e13e64c36398</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/User change password</testCaseId>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Teacher delete topic</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>bd5e2d32-9197-4ed5-9099-02fbab653de6</guid>

@@ -1,0 +1,122 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Moodle Administration Plugins Reposito_90c615/button_Create a repository instance",
+      "brokenLocator": "//button[@id\u003d\u0027single_button61da657eb660c15\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//section[@id\u003d\u0027region-main\u0027]/div/div/div/form/button",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220109_143536/Run all test cases/20220109_143536/Object Repository/Page_Moodle Administration Plugins Reposito_90c615/button_Create a repository instance_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Moodle Administration Search/a_Outgoing mail configuration",
+      "brokenLocator": "//div[@id\u003d\u0027yui_3_17_2_1_1641186493565_24\u0027]/ul/li/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a[contains(text(),\u0027Outgoing mail configuration\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220109_143536/Run all test cases/20220109_143536/Object Repository/Page_Moodle Administration Search/a_Outgoing mail configuration_link.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Moodle Administration Users Accounts Upload users/input_File_userfilechoose",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//fieldset/div[2]/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220109_143536/Run all test cases/20220109_143536/Object Repository/Page_Moodle Administration Users Accounts Upload users/input_File_userfilechoose_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Moodle Administration Users Accounts Upload users/usercorrect",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//a[6]/div/div[3]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220109_143536/Run all test cases/20220109_143536/Object Repository/Page_Moodle Administration Users Accounts Upload users/usercorrect_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_MT Administration Users Accounts Upload users/button_Continue",
+      "brokenLocator": "//button[@id\u003d\u0027single_button61d1e7dc8a34615\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//section[@id\u003d\u0027region-main\u0027]/div/div[2]/form/button",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220109_143536/Run all test cases/20220109_143536/Object Repository/Page_MT Administration Users Accounts Upload users/button_Continue_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_MT Administration Users Accounts Upload users/span_csv",
+      "brokenLocator": "//span[@id\u003d\u0027yui_3_17_2_1_1641146752506_621\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Wikimedia\u0027])[1]/following::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220109_143536/Run all test cases/20220109_143536/Object Repository/Page_MT Administration Users Accounts Upload users/span_csv_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Moodle Administration Users Accounts Upload users/userwrong",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//a[7]/div/div[3]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220109_143536/Run all test cases/20220109_143536/Object Repository/Page_Moodle Administration Users Accounts Upload users/userwrong_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_MT Administration Users Accounts Upload users/button_Select this file",
+      "brokenLocator": "//button[@id\u003d\u0027yui_3_17_2_1_1641146752506_743\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Choose licence\u0027])[1]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220109_143536/Run all test cases/20220109_143536/Object Repository/Page_MT Administration Users Accounts Upload users/button_Select this file_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Moodle Administration Users Permission_a5c101/select_V Duy (vhbaoduy0808gmail.com)    Tro_952a8e",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//select[@id\u003d\u0027addselect\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220109_143536/Run all test cases/20220109_143536/Object Repository/Page_Moodle Administration Users Permission_a5c101/select_V Duy (vhbaoduy0808gmail.com)    Tro_952a8e_attributes.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Moodle Administration Users Permission_a5c101/button_Continue",
+      "brokenLocator": "//button[@id\u003d\u0027single_button61da8e2ab398d15\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027modal-footer\u0027]/div/div/form/button",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220109_143536/Run all test cases/20220109_143536/Object Repository/Page_Moodle Administration Users Permission_a5c101/button_Continue_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Moodle Add new category/span_",
+      "brokenLocator": "//span[@id\u003d\u0027form_autocomplete_downarrow-1641566696576\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027fitem_id_parent\u0027]/div[2]/div[3]/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220109_143536/Run all test cases/20220109_143536/Object Repository/Page_Moodle Add new category/span__idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Moodle Add a new course/span_",
+      "brokenLocator": "//span[@id\u003d\u0027form_autocomplete_downarrow-1641567321082\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027fitem_id_category\u0027]/div[2]/div[3]/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220109_143536/Run all test cases/20220109_143536/Object Repository/Page_Moodle Add a new course/span__idRelative.png"
+    }
+  ]
+}

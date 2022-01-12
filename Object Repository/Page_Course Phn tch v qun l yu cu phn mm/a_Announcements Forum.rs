@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[@onclick='']</value>
+         <value>//div/div[2]/div/a</value>
       </entry>
       <entry>
          <key>CSS</key>

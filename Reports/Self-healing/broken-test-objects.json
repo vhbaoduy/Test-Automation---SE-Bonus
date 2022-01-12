@@ -1,21 +1,104 @@
 {
-  "brokenTestObjects" : [ {
-    "approved" : false,
-    "testObjectId" : "Object Repository/Page_Course Phn tch v qun l yu cu phn mm/a_Edit",
-    "brokenLocator" : "//*[@href = '#' and @id = 'action-menu-toggle-7' and (text() = '\n                            \n                            Edit\n                                \n                            \n                        ' or . = '\n                            \n                            Edit\n                                \n                            \n                        ')]",
-    "brokenLocatorMethod" : "BASIC",
-    "proposedLocator" : "//a[@id='action-menu-toggle-7']",
-    "proposedLocatorMethod" : "XPATH",
-    "recoveryMethod" : "XPATH",
-    "pathToScreenshot" : "Reports/Self-healing/Object Repository/Page_Course Phn tch v qun l yu cu phn mm/a_Edit_XPATH.png"
-  }, {
-    "approved" : false,
-    "testObjectId" : "Object Repository/Page_Course Phn tch v qun l yu cu phn mm/input_New name for topic Topic 1_id_inplace_ba18e1",
-    "brokenLocator" : "//input[@id='id_inplacevalue_30995584801983719841']",
-    "brokenLocatorMethod" : "XPATH",
-    "proposedLocator" : "//span/input",
-    "proposedLocatorMethod" : "XPATH",
-    "recoveryMethod" : "XPATH",
-    "pathToScreenshot" : "Reports/Self-healing/Object Repository/Page_Course Phn tch v qun l yu cu phn mm/input_New name for topic Topic 1_id_inplace_ba18e1_position.png"
-  } ]
+  "brokenTestObjects": [
+    {
+      "approved": false,
+      "testObjectId": "Object Repository/Page_Course Phn tch v qun l yu cu phn mm/a_Edit",
+      "brokenLocator": "//*[@href \u003d \u0027#\u0027 and @id \u003d \u0027action-menu-toggle-7\u0027 and (text() \u003d \u0027\n                            \n                            Edit\n                                \n                            \n                        \u0027 or . \u003d \u0027\n                            \n                            Edit\n                                \n                            \n                        \u0027)]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//a[@id\u003d\u0027action-menu-toggle-7\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Course Phn tch v qun l yu cu phn mm/a_Edit_XPATH.png"
+    },
+    {
+      "approved": false,
+      "testObjectId": "Object Repository/Page_Moodle Administration Server Email Out_d1e642/div_Changes saved",
+      "brokenLocator": "//span[@id\u003d\u0027user-notifications\u0027]/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Blocks editing on\u0027])[1]/following::div[4]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Moodle Administration Server Email Out_d1e642/div_Changes saved_neighbor.png"
+    },
+    {
+      "approved": false,
+      "testObjectId": "Object Repository/Page_Course Phn tch v qun l yu cu phn mm/input_New name for topic Topic 1_id_inplace_ba18e1",
+      "brokenLocator": "//input[@id\u003d\u0027id_inplacevalue_30995584801983719841\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//span/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Course Phn tch v qun l yu cu phn mm/input_New name for topic Topic 1_id_inplace_ba18e1_position.png"
+    },
+    {
+      "approved": false,
+      "testObjectId": "Object Repository/Page_Moodle Administration Users Accounts B_4543d8/div_Changes saved",
+      "brokenLocator": "//span[@id\u003d\u0027user-notifications\u0027]/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Blocks editing on\u0027])[1]/following::div[4]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Moodle Administration Users Accounts B_4543d8/div_Changes saved_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Course Phn tch v qun l yu cu phn mm/a_Announcements Forum",
+      "brokenLocator": "//div/div[2]/div/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "a.aalink",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Course Phn tch v qun l yu cu phn mm/a_Announcements Forum_CSS.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_CSC13009 Participants/h2_Participants",
+      "brokenLocator": "//section[@id\u003d\u0027region-main\u0027]/div[2]/h2",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//h2",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_CSC13009 Participants/h2_Participants_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Course Thit k phn mm/button_Turn editing on",
+      "brokenLocator": "//header[@id\u003d\u0027page-header\u0027]/div/div/div/div[2]/div[2]/div/form/button",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//form/button",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Course Thit k phn mm/button_Turn editing on_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Course Phn tch v qun l yu cu phn mm/button_Turn editing on",
+      "brokenLocator": "//header[@id\u003d\u0027page-header\u0027]/div/div/div/div[2]/div[2]/div/form/button",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027CSC13005\u0027])[2]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Course Phn tch v qun l yu cu phn mm/button_Turn editing on_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Course Phn tch v qun l yu cu phn mm/button_Turn editing on",
+      "brokenLocator": "//header[@id\u003d\u0027page-header\u0027]/div/div/div/div[2]/div[2]/div/form/button",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//form/button",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Course Phn tch v qun l yu cu phn mm/button_Turn editing on_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Course Phn tch v qun l yu cu phn mm/a_Edit",
+      "brokenLocator": "//*[@href \u003d \u0027#\u0027 and @id \u003d \u0027action-menu-toggle-7\u0027 and (text() \u003d \u0027\n                            \n                            Edit\n                                \n                            \n                        \u0027 or . \u003d \u0027\n                            \n                            Edit\n                                \n                            \n                        \u0027)]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(//a[contains(@href, \u0027#\u0027)])[15]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Course Phn tch v qun l yu cu phn mm/a_Edit_href.png"
+    }
+  ]
 }

@@ -36,7 +36,7 @@ WebUI.click(findTestObject('Object Repository/Page_Moodle Add a new course/span_
 WebUI.click(findTestObject('Object Repository/Page_Moodle Add a new course/li_Cng ngh thng tin  K thut phn mm'))
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Moodle Add a new course/select_Miscellaneous            Cng ngh thn_6d25f3'), 
-    '3', true)
+    '3', true, FailureHandling.OPTIONAL)
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Moodle Add a new course/select_Hide            Show'), 
     '0', true)

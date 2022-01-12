@@ -1,0 +1,20 @@
+{"testCaseName":"Test Cases/Login as admin","testCaseId":"Test Cases/Login as admin"}
+{"testCaseName":"Test Cases/Admin config file system (create respositories)","testCaseId":"Test Cases/Admin config file system (create respositories)"}
+{"testCaseName":"Test Cases/Admin config outgoing email","testCaseId":"Test Cases/Admin config outgoing email"}
+{"testCaseName":"Test Cases/Admin edit profile (change email)","testCaseId":"Test Cases/Admin edit profile (change email)"}
+{"testCaseName":"Test Cases/Admin upload user with csv","testCaseId":"Test Cases/Admin upload user with csv"}
+{"testCaseName":"Test Cases/Admin upload user wrong with csv","testCaseId":"Test Cases/Admin upload user wrong with csv"}
+{"testCaseName":"Test Cases/Admin create user","testCaseId":"Test Cases/Admin create user"}
+{"testCaseName":"Test Cases/Admin create user (already exist)","testCaseId":"Test Cases/Admin create user (already exist)"}
+{"testCaseName":"Test Cases/Admin create user (invalid password)","testCaseId":"Test Cases/Admin create user (invalid password)"}
+{"testCaseName":"Test Cases/Admin create user (without special character)","testCaseId":"Test Cases/Admin create user (without special character)"}
+{"testCaseName":"Test Cases/Assgin system role","testCaseId":"Test Cases/Assgin system role"}
+{"testCaseName":"Test Cases/Admin assign system adminstators","testCaseId":"Test Cases/Admin assign system adminstators"}
+{"testCaseName":"Test Cases/Admin add new cohort (user)","testCaseId":"Test Cases/Admin add new cohort (user)"}
+{"testCaseName":"Test Cases/Admin assign cohorts","testCaseId":"Test Cases/Admin assign cohorts"}
+{"testCaseName":"Test Cases/Admin create course parent category","testCaseId":"Test Cases/Admin create course parent category"}
+{"testCaseName":"Test Cases/Admin create course child category","testCaseId":"Test Cases/Admin create course child category"}
+{"testCaseName":"Test Cases/Admin create course (with enddate)","testCaseId":"Test Cases/Admin create course (with enddate)"}
+{"testCaseName":"Test Cases/Admin create course (without enddate)","testCaseId":"Test Cases/Admin create course (without enddate)"}
+{"testCaseName":"Test Cases/Admin create course (invisible)","testCaseId":"Test Cases/Admin create course (invisible)"}
+{"testCaseName":"Test Cases/Admin create course (exists)","testCaseId":"Test Cases/Admin create course (exists)"}
