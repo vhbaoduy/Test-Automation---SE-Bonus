@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//strong[@id='yui_3_17_2_1_1641658068963_197']</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Starred'])[2]/following::strong[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

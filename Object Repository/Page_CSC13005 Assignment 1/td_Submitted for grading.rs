@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//section[@id='region-main']/div/div[3]/div/table/tbody/tr/td</value>
+         <value>//td</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -19,22 +19,19 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Login as user (student)'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page_Dashboard/span_Site home'))
+WebUI.click(findTestObject('Object Repository/Page_Dashboard/span_Site home (1)'))
 
-WebUI.navigateToUrl('http://localhost/?redirect=0')
+WebUI.click(findTestObject('Object Repository/Page_My Moodle/a_Thit k phn mm (1)'))
 
-WebUI.click(findTestObject('Object Repository/Page_My Moodle/a_Phn tch v qun l yu cu phn mm'))
+WebUI.click(findTestObject('Page_Course Phn tch v qun l yu cu phn mm/button_End tour'), FailureHandling.OPTIONAL)
 
-WebUI.click(findTestObject('Object Repository/Page_Course Phn tch v qun l yu cu phn mm/span_Assignment 1'))
+WebUI.click(findTestObject('Object Repository/Page_Course Thit k phn mm/span_Assignment with file'))
 
-WebUI.click(findTestObject('Object Repository/Page_CSC13005 Assignment 1/button_Add submission'))
+WebUI.click(findTestObject('Page_Course Phn tch v qun l yu cu phn mm/button_End tour'), FailureHandling.OPTIONAL)
 
-WebUI.setText(findTestObject('Object Repository/Page_CSC13005 Assignment 1 - Edit submission/div_Testing Student submit assignment'), 
-    '<p dir="ltr" style="text-align: left;">Testing: Student submit assignment</p>')
+WebUI.click(findTestObject('Object Repository/Page_CSC13010 Assignment with file/button_Add submission'))
 
-WebUI.click(findTestObject('Object Repository/Page_CSC13005 Assignment 1 - Edit submission/input_Loading_submitbutton'))
+WebUI.setText(findTestObject('Object Repository/Page_CSC13010 Assignment with file - Edit s_51cb9b/div_123'), '<p dir="ltr" style="text-align: left;">123</p>')
 
-WebUI.click(findTestObject('Object Repository/Page_CSC13005 Assignment 1/td_Submitted for grading'))
-
-WebUI.click(findTestObject('Object Repository/Page_CSC13005 Assignment 1/p_Testing Student submit assignment'))
+WebUI.click(findTestObject('Object Repository/Page_CSC13010 Assignment with file - Edit s_51cb9b/input_Loading_submitbutton'))
 

@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='yui_3_17_2_1_1641737202324_192']/div/div/div[3]/div[2]/a</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Course event'])[1]/following::a[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

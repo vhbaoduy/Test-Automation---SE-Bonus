@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//header[@id='page-header']/div/div/div/div[2]/div[2]/div/form/button</value>
+         <value>//form/button</value>
       </entry>
       <entry>
          <key>BASIC</key>

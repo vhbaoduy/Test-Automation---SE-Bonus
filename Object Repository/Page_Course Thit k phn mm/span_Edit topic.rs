@@ -7,11 +7,11 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#actionmenuaction-48</value>
+         <value>#actionmenuaction-49</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//span[@id='actionmenuaction-48']</value>
+         <value>//span[@id='actionmenuaction-49']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -35,7 +35,7 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>actionmenuaction-48</value>
+      <value>actionmenuaction-49</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,21 +49,21 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;actionmenuaction-48&quot;)</value>
+      <value>id(&quot;actionmenuaction-49&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//span[@id='actionmenuaction-48']</value>
+      <value>//span[@id='actionmenuaction-49']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//a[@id='yui_3_17_2_1_1641913297118_182']/span</value>
+      <value>//a[@id='yui_3_17_2_1_1641975113853_183']/span</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,5 +106,19 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[2]/div[2]/div/div/div/div/div/div/a/span</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//span[@id='actionmenuaction-48']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//a[@id='yui_3_17_2_1_1641913297118_182']/span</value>
    </webElementXpaths>
 </WebElementEntity>

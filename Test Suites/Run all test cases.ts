@@ -236,7 +236,7 @@
    <testCaseLink>
       <guid>9c176d75-b294-402e-87f7-f22c16744fb3</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/User change password</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -254,25 +254,25 @@
    <testCaseLink>
       <guid>fbb92a5e-1081-42c5-a9f3-7df94db2f13c</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Student view recently event</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>26ece171-bc90-4f47-9c77-94fea4e4eda8</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Student submit assignment</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>bfb6a59e-99d8-4d0c-a75b-f68c4850994c</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Student attempt quiz</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>39c2b8de-b470-4133-9e1e-f9fa4d00752c</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Student group chat</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -284,31 +284,31 @@
    <testCaseLink>
       <guid>bd5e2d32-9197-4ed5-9099-02fbab653de6</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/User change password (with wrong format)</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>3f9427e7-29f3-49e9-a1d0-f388cc6a97ea</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/User change password (with wrong re-password)</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>332809bc-4cf1-49a0-8889-f88fef62df8e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/User change password (with wrong old password)</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>f92c207a-0c2c-420a-8d78-179884e1e7ea</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Admin upload course (with csv)</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>515f0c8a-d9c9-4701-b99c-e5aca08ed97d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Admin upload course (with wrong csv)</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

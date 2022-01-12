@@ -17,17 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('http://localhost/')
-
-WebUI.click(findTestObject('Object Repository/Page_My Moodle/a_Log in'))
-
-WebUI.setText(findTestObject('Object Repository/Page_My Moodle Log in to the site/input_Username_username'), 'trongle')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_My Moodle Log in to the site/input_Password_password'), 'Ta6u/19GniC0jLl2J4N0KA==')
-
-WebUI.click(findTestObject('Object Repository/Page_My Moodle Log in to the site/button_Log in'))
+WebUI.callTestCase(findTestCase('Login as user (student)'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/Page_Dashboard/img_Trong Le_userpicture defaultuserpic'))
 
@@ -37,7 +27,7 @@ WebUI.click(findTestObject('Object Repository/Page_Trong Le Public profile/a_Mes
 
 WebUI.click(findTestObject('Object Repository/Page_Trong Le Public profile/a_Change password'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Change password/input_Current password_password'), 'Ta6u/19GniC0jLl2J4N0KA==')
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Change password/input_Current password_password'), '3t5OwH/+bwwlEvOXGw7/rg==')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Change password/input_New password_newpassword1'), 'QJblfja5Cso=')
 

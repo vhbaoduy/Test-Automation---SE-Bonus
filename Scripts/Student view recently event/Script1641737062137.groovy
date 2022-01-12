@@ -23,7 +23,3 @@ WebUI.click(findTestObject('Object Repository/Page_Dashboard/a_Assignment 1 is d
 
 WebUI.click(findTestObject('Object Repository/Page_Dashboard/a_Phn tch v qun l yu cu phn mm'))
 
-WebUI.navigateToUrl('http://localhost/course/view.php?id=2')
-
-WebUI.click(findTestObject('Object Repository/Page_Course Phn tch v qun l yu cu phn mm/span_Assignment 1'))
-

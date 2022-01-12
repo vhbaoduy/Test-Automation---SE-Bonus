@@ -27,20 +27,13 @@ WebUI.click(findTestObject('Object Repository/Page_My Moodle/a_Phn tch v qun l y
 
 WebUI.click(findTestObject('Object Repository/Page_Course Phn tch v qun l yu cu phn mm/button_Turn editing on'))
 
-WebUI.click(findTestObject('Object Repository/Page_Course Phn tch v qun l yu cu phn mm/a_Edit'))
+WebUI.click(findTestObject('Page_Course Thit k phn mm/a_Edit (1)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Course Phn tch v qun l yu cu phn mm/span_Edit settings'))
-
-WebUI.setText(findTestObject('Object Repository/Page_Editing Assignment/div_1 1'), '1 <p>1</p>')
+WebUI.click(findTestObject('Page_Course Thit k phn mm/span_Edit settings (1)'))
 
 WebUI.click(findTestObject('Object Repository/Page_Editing Assignment/input_Online text_assignsubmission_onlinete_900d47'))
 
 WebUI.click(findTestObject('Object Repository/Page_Editing Assignment/input_Enable_assignsubmission_onlinetext_wo_0d4c71'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Editing Assignment/input_Word limit_assignsubmission_onlinetex_3b42b9'), 
-    '1000')
-
 WebUI.click(findTestObject('Object Repository/Page_Editing Assignment/input_Upon activity completion_submitbutton2'))
-
-WebUI.click(findTestObject('Object Repository/Page_Course Phn tch v qun l yu cu phn mm/button_Turn editing off'))
 

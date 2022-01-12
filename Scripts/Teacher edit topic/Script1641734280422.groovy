@@ -39,5 +39,3 @@ WebUI.setText(findTestObject('Object Repository/Page_Edit Topic 1/input_New valu
 
 WebUI.click(findTestObject('Object Repository/Page_Edit Topic 1/input_Add restriction_submitbutton'))
 
-WebUI.click(findTestObject('Object Repository/Page_Course Thit k phn mm/a_Lecture 1'))
-

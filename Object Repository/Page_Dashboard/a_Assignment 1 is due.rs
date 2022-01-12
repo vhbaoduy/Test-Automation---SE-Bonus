@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='month-upcoming-mini-61daebf19395961daebf138b404']/div/a</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Upcoming events'])[1]/following::a[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -19,30 +19,22 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Login as admin'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page_Dashboard/span_Site home'))
+WebUI.click(findTestObject('Object Repository/Page_Dashboard/span_Site administration (1)'))
 
-WebUI.navigateToUrl('http://localhost/?redirect=0')
+WebUI.navigateToUrl('http://localhost/admin/search.php')
 
-WebUI.click(findTestObject('Object Repository/Page_My Moodle/a_Thit k phn mm'))
+WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Search/a_Courses (1)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Course Thit k phn mm/a_Thit k phn mm_action-menu-toggle-2'))
+WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Search/a_Manage courses and categories'))
 
-WebUI.click(findTestObject('Object Repository/Page_Course Thit k phn mm/a_Edit settings'))
+WebUI.click(findTestObject('Object Repository/Page_Course and category management/a_Cng ngh thng tin'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Edit course settings/select_Hide            Show'), '1', 
-    true)
+WebUI.click(findTestObject('Object Repository/Page_Course and category management/a_K thut phn mm'))
 
-WebUI.click(findTestObject('Object Repository/Page_Edit course settings/input__saveanddisplay'))
+WebUI.click(findTestObject('Object Repository/Page_Course and category management/i_Thit k phn mm_yui_3_17_2_1_1641987529450_340'))
 
-WebUI.click(findTestObject('Object Repository/Page_Course Thit k phn mm/span_Moodle'))
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Edit course settings/select_Hide            Show (1)'), 
+    '1', true)
 
-WebUI.click(findTestObject('Object Repository/Page_Dashboard/a_Admin Team'))
-
-WebUI.click(findTestObject('Object Repository/Page_Dashboard/span_Switch role to'))
-
-WebUI.click(findTestObject('Object Repository/Page_Switch role to/button_Student'))
-
-WebUI.click(findTestObject('Object Repository/Page_Dashboard/span_Site home'))
-
-WebUI.click(findTestObject('Object Repository/Page_My Moodle/a_Thit k phn mm'))
+WebUI.click(findTestObject('Object Repository/Page_Edit course settings/input__saveandreturn'))
 

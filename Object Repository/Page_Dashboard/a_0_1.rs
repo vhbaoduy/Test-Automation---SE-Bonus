@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[@id='message-drawer-toggle-61d9b6d4d9f5361d9b6d4b54419']</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='See all'])[1]/following::a[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

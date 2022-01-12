@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='yui_3_17_2_1_1641658068963_224']/div/div/div[2]/div[2]/div/div[3]/button[2]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='😀'])[1]/following::button[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

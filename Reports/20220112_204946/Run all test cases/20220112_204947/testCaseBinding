@@ -1,0 +1,50 @@
+{"testCaseName":"Test Cases/Login as admin","testCaseId":"Test Cases/Login as admin"}
+{"testCaseName":"Test Cases/Admin config file system (create repositories)","testCaseId":"Test Cases/Admin config file system (create repositories)"}
+{"testCaseName":"Test Cases/Admin config outgoing email","testCaseId":"Test Cases/Admin config outgoing email"}
+{"testCaseName":"Test Cases/Admin edit profile (change email)","testCaseId":"Test Cases/Admin edit profile (change email)"}
+{"testCaseName":"Test Cases/Admin upload user with csv","testCaseId":"Test Cases/Admin upload user with csv"}
+{"testCaseName":"Test Cases/Admin upload user wrong with csv","testCaseId":"Test Cases/Admin upload user wrong with csv"}
+{"testCaseName":"Test Cases/Admin create user","testCaseId":"Test Cases/Admin create user"}
+{"testCaseName":"Test Cases/Admin create user (already exist)","testCaseId":"Test Cases/Admin create user (already exist)"}
+{"testCaseName":"Test Cases/Admin create user (invalid password)","testCaseId":"Test Cases/Admin create user (invalid password)"}
+{"testCaseName":"Test Cases/Admin create user (without special character)","testCaseId":"Test Cases/Admin create user (without special character)"}
+{"testCaseName":"Test Cases/Assgin system role","testCaseId":"Test Cases/Assgin system role"}
+{"testCaseName":"Test Cases/Admin assign system administrators","testCaseId":"Test Cases/Admin assign system administrators"}
+{"testCaseName":"Test Cases/Admin add new cohort (user)","testCaseId":"Test Cases/Admin add new cohort (user)"}
+{"testCaseName":"Test Cases/Admin assign cohorts","testCaseId":"Test Cases/Admin assign cohorts"}
+{"testCaseName":"Test Cases/Admin create course parent category","testCaseId":"Test Cases/Admin create course parent category"}
+{"testCaseName":"Test Cases/Admin create course child category","testCaseId":"Test Cases/Admin create course child category"}
+{"testCaseName":"Test Cases/Admin create course (with enddate)","testCaseId":"Test Cases/Admin create course (with enddate)"}
+{"testCaseName":"Test Cases/Admin create course (without enddate)","testCaseId":"Test Cases/Admin create course (without enddate)"}
+{"testCaseName":"Test Cases/Admin create course (invisible)","testCaseId":"Test Cases/Admin create course (invisible)"}
+{"testCaseName":"Test Cases/Admin create course (exists)","testCaseId":"Test Cases/Admin create course (exists)"}
+{"testCaseName":"Test Cases/Admin suspend user account","testCaseId":"Test Cases/Admin suspend user account"}
+{"testCaseName":"Test Cases/Admin create event on a course","testCaseId":"Test Cases/Admin create event on a course"}
+{"testCaseName":"Test Cases/Admin assign course teacher","testCaseId":"Test Cases/Admin assign course teacher"}
+{"testCaseName":"Test Cases/Admin assign student to course","testCaseId":"Test Cases/Admin assign student to course"}
+{"testCaseName":"Test Cases/Admin view grade of course","testCaseId":"Test Cases/Admin view grade of course"}
+{"testCaseName":"Test Cases/Login as user (teacher)","testCaseId":"Test Cases/Login as user (teacher)"}
+{"testCaseName":"Test Cases/Teacher create announcement","testCaseId":"Test Cases/Teacher create announcement"}
+{"testCaseName":"Test Cases/Teacher create announcement (image)","testCaseId":"Test Cases/Teacher create announcement (image)"}
+{"testCaseName":"Test Cases/Teacher create announcement (video)","testCaseId":"Test Cases/Teacher create announcement (video)"}
+{"testCaseName":"Test Cases/Teacher create assignment","testCaseId":"Test Cases/Teacher create assignment"}
+{"testCaseName":"Test Cases/Teacher create assignment ( with file attached )","testCaseId":"Test Cases/Teacher create assignment ( with file attached )"}
+{"testCaseName":"Test Cases/Teacher create forum","testCaseId":"Test Cases/Teacher create forum"}
+{"testCaseName":"Test Cases/Teacher create group in course","testCaseId":"Test Cases/Teacher create group in course"}
+{"testCaseName":"Test Cases/Teacher create new badge","testCaseId":"Test Cases/Teacher create new badge"}
+{"testCaseName":"Test Cases/Admin edit course setting","testCaseId":"Test Cases/Admin edit course setting"}
+{"testCaseName":"Test Cases/Teacher create quiz","testCaseId":"Test Cases/Teacher create quiz"}
+{"testCaseName":"Test Cases/Teacher edit topic","testCaseId":"Test Cases/Teacher edit topic"}
+{"testCaseName":"Test Cases/User change password","testCaseId":"Test Cases/User change password"}
+{"testCaseName":"Test Cases/Teacher upload rescourse","testCaseId":"Test Cases/Teacher upload rescourse"}
+{"testCaseName":"Test Cases/Teacher change type of assignment","testCaseId":"Test Cases/Teacher change type of assignment"}
+{"testCaseName":"Test Cases/Student view recently event","testCaseId":"Test Cases/Student view recently event"}
+{"testCaseName":"Test Cases/Student submit assignment","testCaseId":"Test Cases/Student submit assignment"}
+{"testCaseName":"Test Cases/Student attempt quiz","testCaseId":"Test Cases/Student attempt quiz"}
+{"testCaseName":"Test Cases/Student group chat","testCaseId":"Test Cases/Student group chat"}
+{"testCaseName":"Test Cases/Teacher delete topic","testCaseId":"Test Cases/Teacher delete topic"}
+{"testCaseName":"Test Cases/User change password (with wrong format)","testCaseId":"Test Cases/User change password (with wrong format)"}
+{"testCaseName":"Test Cases/User change password (with wrong re-password)","testCaseId":"Test Cases/User change password (with wrong re-password)"}
+{"testCaseName":"Test Cases/User change password (with wrong old password)","testCaseId":"Test Cases/User change password (with wrong old password)"}
+{"testCaseName":"Test Cases/Admin upload course (with csv)","testCaseId":"Test Cases/Admin upload course (with csv)"}
+{"testCaseName":"Test Cases/Admin upload course (with wrong csv)","testCaseId":"Test Cases/Admin upload course (with wrong csv)"}

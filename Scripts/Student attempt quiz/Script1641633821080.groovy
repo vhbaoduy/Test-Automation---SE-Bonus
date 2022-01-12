@@ -25,13 +25,11 @@ WebUI.navigateToUrl('http://localhost/?redirect=0')
 
 WebUI.click(findTestObject('Object Repository/Page_My Moodle/a_Phn tch v qun l yu cu phn mm'))
 
-WebUI.click(findTestObject('Object Repository/Page_Course Thit k phn mm/button_End tour'))
+WebUI.click(findTestObject('Object Repository/Page_Course Thit k phn mm/button_End tour'), FailureHandling.OPTIONAL)
 
 WebUI.click(findTestObject('Object Repository/Page_Course Thit k phn mm/span_Quiz 1'))
 
 WebUI.navigateToUrl('http://localhost/mod/quiz/view.php?id=8')
 
-WebUI.click(findTestObject('Object Repository/Page_CSC13010 Quiz 1/button_End tour'))
-
-WebUI.click(findTestObject('Object Repository/Page_CSC13010 Quiz 1/div_No questions have been added yet'))
+WebUI.click(findTestObject('Object Repository/Page_CSC13010 Quiz 1/button_End tour'), FailureHandling.OPTIONAL)
 
