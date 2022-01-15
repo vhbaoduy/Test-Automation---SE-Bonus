@@ -25,6 +25,8 @@ WebUI.click(findTestObject('Object Repository/Page_My Moodle/a_Thit k phn mm (1)
 
 WebUI.click(findTestObject('Page_Course Phn tch v qun l yu cu phn mm/button_End tour'), FailureHandling.OPTIONAL)
 
+WebUI.scrollToPosition(0,0)
+
 WebUI.click(findTestObject('Object Repository/Page_Course Thit k phn mm/span_Assignment with file'))
 
 WebUI.click(findTestObject('Page_Course Phn tch v qun l yu cu phn mm/button_End tour'), FailureHandling.OPTIONAL)
